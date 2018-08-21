@@ -1,0 +1,29 @@
+{
+  "name": "Browser_Push_Notifications",
+  "version": "1.0.0",
+  "description": "Web-Push Notifications even when browser minimised",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pranavkapoorr/Browser_Push_Notifications.git"
+  },
+  "keywords": [
+    "node",
+    "webpush",
+    "facebook"
+  ],
+  "author": "Pranav Kapoor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pranavkapoorr/Browser_Push_Notifications/issues"
+  },
+  "homepage": "https://github.com/pranavkapoorr/Browser_Push_Notifications#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "web-push": "^3.3.1"
+  }
+}
